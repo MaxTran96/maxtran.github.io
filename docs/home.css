@@ -1,0 +1,74 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#about{
+
+    background-color: #64c4a8;
+    padding:30px;
+    padding-top: 70px;
+}
+.inner{
+    font-size: 15px;
+}
+h4{
+    text-align: center;
+}
+#code{
+    background-color: black;
+    margin: auto;
+    width: 70%;
+    border: 3px solid green;
+    padding: 10px;
+    color: white;
+}
+
+.question {
+    font-family: 'Monaco', 'Courier New';
+    text-align: left;
+    font-size: 13px;
+    color: #fafafa;
+}
+.answer{
+    font-family: 'Monaco', 'Courier New';
+    text-align: left;
+    font-size: 13px;
+}
+#resume{
+    background-color:#d7dddb;
+    padding: 30px;
+
+}
+.education{
+    width:70%;
+    margin:auto;
+}
+.tagline{
+    text-align: center;
+
+}
+.skill{
+    border: 1px solid blue;
+    padding: 2px;
+    margin: 5px;
+}
+
+.work-experience{
+    width:70%;
+    margin:auto;
+}
+
+.work{
+    margin:auto;
+    width:70%;
+    padding: 30px;
+}
+
+#footer{
+    margin: auto;
+    width:90%;
+}
+.right{
+    float: right;
+}
