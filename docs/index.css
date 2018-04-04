@@ -153,10 +153,10 @@ h3 {
 
 .websites, #calculator, #dubhacks{
     
-          height: auto;
-      float: left;
-      padding: 0;
-      position: relative;
+    height: auto;
+    float: left;
+    padding: 0;
+    position: relative;
     background-color: black
 
 }
@@ -188,22 +188,40 @@ h3 {
     top: 25%;
     right: 0;
     bottom: 0;
-    font-size: 14px;
+    font-size: 50px;
     text-align: center;
     opacity: 0;
+    font-family: "Roboto";
+}
+/*#chart-holder{
+    display:flex;
+    justify-content: center;
+}*/
+#languages-div, #fr-li-div, #other-div{
+    width:30%;
+}
+#myChart{
+/*    display:none;*/
+    visibility: hidden;
+    display:flex;
+    justify-content: center;
+
+
 }
 
-
-
+#button-container{
+    text-align: center;
+}
 
 #portfolio-text{
     width:50%;
     text-align: center;
-    font-size:150px;
+    font-size:160px;
     font-family: "Roboto";
 
 
 }
+
 .navbar{
     position: fixed;
     z-index: 1;
@@ -220,9 +238,43 @@ h3 {
     list-style-type:none;
 }
 
+hr.hr-style { 
+  height: 30px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+} 
+hr.hr-style:before { 
+  display: block; 
+  content: ""; 
+  height: 30px; 
+  margin-top: -31px; 
+  border-style: solid; 
+  border-color: #8c8b8b; 
+  border-width: 0 0 1px 0; 
+  border-radius: 20px; 
+}
+
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
+    #code{
+    background-color: black;
+    margin: auto;
+    width: 100%;
+    border: solid green;
+    border-width: 10px 0px 0px 0px;
+    padding: 10px;
+    color: white;
+    border-radius: 15px 15px 0px 0px;
+
+    }
+    #about{
+
+    background-color: #64c4a8;
+    padding:0px;
+    padding-top: 70px;
+
+
     }
 }
 
