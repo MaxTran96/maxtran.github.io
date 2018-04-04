@@ -201,9 +201,9 @@ h3 {
     width:30%;
 }
 #myChart{
-/*    display:none;*/
+
     visibility: hidden;
-    display:flex;
+    display:none;
     justify-content: center;
 
 
