@@ -197,7 +197,7 @@ h3 {
     display:flex;
     justify-content: center;
 }*/
-#languages-div, #fr-li-div, #other-div{
+.chart-div{
     width:30%;
 }
 #myChart{
@@ -258,23 +258,40 @@ hr.hr-style:before {
 
 @media only screen and (max-width: 600px) {
     #code{
-    background-color: black;
-    margin: auto;
-    width: 100%;
-    border: solid green;
-    border-width: 10px 0px 0px 0px;
-    padding: 10px;
-    color: white;
-    border-radius: 15px 15px 0px 0px;
+        background-color: black;
+        margin: auto;
+        width: 100%;
+        border: solid green;
+        border-width: 10px 0px 0px 0px;
+        padding: 10px;
+        color: white;
+        border-radius: 15px 15px 0px 0px;
 
     }
     #about{
 
-    background-color: #64c4a8;
-    padding:0px;
-    padding-top: 70px;
-
-
+        background-color: #64c4a8;
+        padding:0px;
+        padding-top: 70px;
     }
+    #me, #myChart, .web-row{
+        display:block;
+    }
+    #bio-img, #bio-container, .chart-div, #console-output, .websites, #calculator, #dubhacks, #portfolio-text {
+        width: 100%;
+    }
+
+    #portfolio-text{
+        font-size: 90px;
+    }
+    .description{
+        font-size: 30px;
+    }
+
+    #myChart, .social-media-nav, .nav{
+        display:none;
+    }
+
+
 }
 

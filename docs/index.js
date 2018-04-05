@@ -7,20 +7,7 @@ window.onload = function() {
 	$('.websites').hover(function() {
         $(this).css('cursor','pointer');
     });
-        var btn = document.getElementById("button-skill");
-	btn.onclick = function(){
-		
-    	var div = document.getElementById('myChart');
-	    if (div.style.display === 'none') {
-	        div.style.display = 'flex';
-	        div.style.visibility = 'visible';
-	 
-	    } else {
-	        div.style.display = 'none';
-	        div.style.visibility = 'hidden';
-	 
-	    }
-	};
+
 	new Chart(document.getElementById("languages"), {
 	    type: 'horizontalBar',
 	    data: {
@@ -110,4 +97,42 @@ window.onload = function() {
 	      	}
 	    }
 	});
+	var x = window.matchMedia("(max-width: 600px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
 };
+
+function myFunction(x) {
+    if (x.matches) { // If media query matches
+        var btn = document.getElementById("button-skill");
+		btn.onclick = function(){
+		
+    	var div = document.getElementById('myChart');
+		    if (div.style.display === 'none') {
+		        div.style.display = 'block';
+		        div.style.visibility = 'visible';
+		 
+		    } else {
+		        div.style.display = 'none';
+		        div.style.visibility = 'hidden';
+		 
+		    }
+		};	
+    } else {
+        var btn = document.getElementById("button-skill");
+		btn.onclick = function(){
+		
+    	var div = document.getElementById('myChart');
+		    if (div.style.display === 'none') {
+		        div.style.display = 'flex';
+		        div.style.visibility = 'visible';
+		 
+		    } else {
+		        div.style.display = 'none';
+		        div.style.visibility = 'hidden';
+		 
+		    }
+		};
+    }
+}
+
