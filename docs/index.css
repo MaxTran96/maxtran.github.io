@@ -1,11 +1,14 @@
 
 #about{
 
-    background-color: #64c4a8;
+    background-color: #3A98BE;
     padding:30px;
     padding-top: 70px;
+    color:white;
 
-
+}
+#console-output{
+    color:black;
 }
 footer{
     font-size: 15px;
@@ -34,22 +37,19 @@ h1, h4{
     border: solid green;
     border-width: 10px 0px 0px 0px;
     padding: 10px;
-    color: white;
     border-radius: 15px 15px 0px 0px;
 
 }
 
-
-.question {
-    font-family: 'Monaco', 'Courier New';
-    text-align: left;
-    font-size: 13px;
-    color: #fafafa;
+a{
+    color:#3A98BE;
 }
+
 .answer{
     font-family: 'Monaco', 'Courier New';
     text-align: left;
     font-size: 13px;
+
 }
 
 .education{
@@ -270,7 +270,6 @@ hr.hr-style:before {
     }
     #about{
 
-        background-color: #64c4a8;
         padding:0px;
         padding-top: 70px;
     }
